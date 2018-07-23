@@ -11,19 +11,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
   m_Name: black fire SDF
   m_EditorClassIdentifier: 
-  hashCode: 0
+  hashCode: -239000082
   material: {fileID: 21381430136308772}
-  materialHashCode: 0
+  materialHashCode: -1362498651
   fontAssetType: 1
   m_fontInfo:
     Name: Black Fire
     PointSize: 90
-    Scale: 0
+    Scale: 1
     CharacterCount: 71
     LineHeight: 93.125
     Baseline: 0
     Ascender: 65
-    CapHeight: 0
+    CapHeight: 59.6875
     Descender: -20.0625
     CenterLine: 0
     SuperscriptOffset: 65
@@ -33,7 +33,7 @@ MonoBehaviour:
     UnderlineThickness: 4.5
     strikethrough: 16.34091
     strikethroughThickness: 4.5
-    TabWidth: 0
+    TabWidth: 374.375
     Padding: 5
     AtlasWidth: 512
     AtlasHeight: 512
@@ -42,10 +42,10 @@ MonoBehaviour:
   - id: 32
     x: 6
     y: 517
-    width: 0
-    height: 0
+    width: 37.4375
+    height: 85.0625
     xOffset: 0
-    yOffset: 0
+    yOffset: 65
     xAdvance: 37.4375
     scale: 1
   - id: 33
@@ -747,7 +747,7 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: black fire SDF Material
   m_Shader: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: UNDERLAY_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -796,7 +796,7 @@ Material:
     - _GlowOuter: 0.05
     - _GlowPower: 0.75
     - _GradientScale: 6
-    - _LightAngle: 3.1416
+    - _LightAngle: 1
     - _MaskSoftnessX: 0
     - _MaskSoftnessY: 0
     - _OutlineSoftness: 0
@@ -805,9 +805,9 @@ Material:
     - _OutlineWidth: 0
     - _PerspectiveFilter: 0.875
     - _Reflectivity: 10
-    - _ScaleRatioA: 1
-    - _ScaleRatioB: 1
-    - _ScaleRatioC: 1
+    - _ScaleRatioA: 0.8333333
+    - _ScaleRatioB: 0.6770833
+    - _ScaleRatioC: 0.5913392
     - _ScaleX: 1
     - _ScaleY: 1
     - _ShaderFlags: 0
@@ -820,9 +820,9 @@ Material:
     - _TextureHeight: 512
     - _TextureWidth: 512
     - _UnderlayDilate: 0
-    - _UnderlayOffsetX: 0
+    - _UnderlayOffsetX: -1
     - _UnderlayOffsetY: 0
-    - _UnderlaySoftness: 0
+    - _UnderlaySoftness: 0.145
     - _VertexOffsetX: 0
     - _VertexOffsetY: 0
     - _WeightBold: 0.75
@@ -830,14 +830,14 @@ Material:
     m_Colors:
     - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
     - _EnvMatrixRotation: {r: 0, g: 0, b: 0, a: 0}
-    - _FaceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FaceColor: {r: 0.9150943, g: 0.8669298, b: 0.77265036, a: 1}
     - _GlowColor: {r: 0, g: 1, b: 0, a: 0.5}
     - _MaskCoord: {r: 0, g: 0, b: 32767, a: 32767}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _ReflectFaceColor: {r: 0, g: 0, b: 0, a: 1}
     - _ReflectOutlineColor: {r: 0, g: 0, b: 0, a: 1}
-    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
-    - _UnderlayColor: {r: 0, g: 0, b: 0, a: 0.5}
+    - _SpecularColor: {r: 0.9577252, g: 0.95848495, b: 0.9622642, a: 1}
+    - _UnderlayColor: {r: 0.754717, g: 0.39812618, b: 0.35955858, a: 0.5}
 --- !u!28 &28770197477694814
 Texture2D:
   m_ObjectHideFlags: 0
