@@ -1,14 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
+
+
+[CreateAssetMenu(menuName = "State")]
 public class State : ScriptableObject
 {
-    public State states;
-    
-    [SerializeField] TextMeshProUGUI textmesh;
     [TextArea(10,14)] [SerializeField]  string storyText;
-    [SerializeField] State[] state;
+    [SerializeField] State[] nextStates;
     
 
     public string StoryText()
@@ -18,7 +17,7 @@ public class State : ScriptableObject
 
     public State[] DiffStates()
     {
-        return state;
+        return nextStates;
     }
 
 }
