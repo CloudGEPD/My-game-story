@@ -2,22 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
 [CreateAssetMenu(menuName = "State")]
 public class State : ScriptableObject
-{
-    [TextArea(10,14)] [SerializeField]  string storyText;
-    [SerializeField] State[] nextStates;
+{ 
+[TextArea(10, 14)] public string coreStory;
+ [SerializeField] State[] nextStates;
     
-
-    public string StoryText()
+   
+    public string CoreStory()
     {
-        return storyText;
+       
+        return coreStory;
     }
 
-    public State[] DiffStates()
+    public State[] ManageNextStates()
     {
         return nextStates;
     }
+ 
+    
 
 }

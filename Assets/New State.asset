@@ -8,9 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fa9ad41647bd8a47a5edcf16c3d9ef5, type: 3}
+  m_Script: {fileID: 11500000, guid: 6327b54e917160f49837b707a7d14009, type: 3}
   m_Name: New State
   m_EditorClassIdentifier: 
-  states: {fileID: 0}
-  storyText: 
-  state: []
+  coreStory: g,d;lg,dlv,d;flv,d;flv,d;flv,ae;kmpaerjmgaejrpgnmeargm
