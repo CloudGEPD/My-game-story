@@ -8,7 +8,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6327b54e917160f49837b707a7d14009, type: 3}
-  m_Name: New State
+  m_Script: {fileID: 11500000, guid: c823dfe754530af418926182fca1092f, type: 3}
+  m_Name: Pyromancer
   m_EditorClassIdentifier: 
-  coreStory: g,d;lg,dlv,d;flv,d;flv,d;flv,ae;kmpaerjmgaejrpgnmeargm
+  coreStory: rthhfhnhrthrth
+  changeStates: []
