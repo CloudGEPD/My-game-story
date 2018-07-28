@@ -11,5 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c823dfe754530af418926182fca1092f, type: 3}
   m_Name: 2nd
   m_EditorClassIdentifier: 
-  coreStory: 
-  changeStates: []
+  coreStory: vbdggdg
+  changeStates:
+  - {fileID: 11400000, guid: 0d52f29ed2b1d2a4ab961fda75f45a58, type: 2}
+  - {fileID: 11400000}

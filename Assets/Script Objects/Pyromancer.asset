@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Name: Pyromancer
   m_EditorClassIdentifier: 
   coreStory: rthhfhnhrthrth
-  changeStates: []
+  changeStates:
+  - {fileID: 11400000, guid: 081d51e66c4bee54ea50d994175c1618, type: 2}
+  - {fileID: 11400000, guid: 9b1ec884b911f50488650b3d6c3be0a7, type: 2}

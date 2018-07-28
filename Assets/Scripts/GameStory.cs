@@ -14,22 +14,23 @@ public class GameStory : MonoBehaviour
 	void Start ()
     {
         state = startingState;
-        textmesh.text = state.CoreStory(); 
+        textmesh.text = state.CoreStory();
+       
 	}
 	
 	
 
-	void Update ()
-    {
+    void Update ()
+   {
         GetNextStates();
 	}
 
-    void GetNextStates()
-    {
+   void GetNextStates()
+   {
         var changeStates = state.ManageNextStates();
         if(Input.GetKeyDown(KeyCode.Alpha1))
-        {
-            state = changeStates[0];
+       {
+           state = changeStates[0];
         }
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {

@@ -6,8 +6,8 @@ using UnityEngine;
 
 public class State : ScriptableObject
 {
-   [TextArea(14,14)] public string coreStory;
-   public State[] changeStates;
+   [TextArea(14,14)] [SerializeField] string coreStory;
+   [SerializeField] State[] changeStates;
 
     public string CoreStory()
     {
