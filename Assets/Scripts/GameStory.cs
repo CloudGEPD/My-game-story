@@ -11,16 +11,17 @@ public class GameStory : MonoBehaviour
     State state;
 	
 
-	void Start ()
+	    void Start ()
     {
         state = startingState;
         textmesh.text = state.CoreStory();
-       
+
+        
 	}
 	
 	
 
-    void Update ()
+    void Update () 
    {
         GetNextStates();
 	}
@@ -28,11 +29,15 @@ public class GameStory : MonoBehaviour
    void GetNextStates()
    {
         var changeStates = state.ManageNextStates();
+
+        for (int index = 0; index < changeStates.Length ; index++)
+
+
         if(Input.GetKeyDown(KeyCode.Alpha1))
        {
            state = changeStates[0];
         }
-        if (Input.GetKeyDown(KeyCode.Alpha2))
+        else if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             state = changeStates[1];
         }

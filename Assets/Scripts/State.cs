@@ -11,8 +11,8 @@ public class State : ScriptableObject
 
     public string CoreStory()
     {
-        return coreStory;
-    }
+       return coreStory;
+   }
 
     public State[] ManageNextStates()
    {

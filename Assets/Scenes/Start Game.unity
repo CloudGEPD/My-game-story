@@ -365,6 +365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 087c94a03d4c25b4faa0466fc9ae2c71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startingState: {fileID: 11400000, guid: 371728b64d8d7004a8e37bbdf6a9bdcf, type: 2}
   textmesh: {fileID: 1813648446}
 --- !u!4 &949426240
 Transform:
